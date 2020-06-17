@@ -1,13 +1,32 @@
+  
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+/*----------------------------------------------Special text */
+.uppercase {
+    text-transform: uppercase;
+}
+/*----------------------------------------------Special text */
+
+/*--------------------------------home-header*/
+
 /*--------------------------------home-header*/
 
 /*--------------------------------/home-header*/
 /*--------------------------------logos*/
-.logo-orange {
+
+.logo-orange, .logo-white {
     height: 50px;
 }
-.logo-white {
-    height: 50px;
 
+.logo-orange-small {
+    height: 28px;
+    position: relative;
+    bottom: 5px;
+    overflow: hidden;
 }
 /*--------------------------------logos*/
 
@@ -26,14 +45,24 @@
 }
 
 .box {
-  border: 6.5px solid black;
+  border: 6.5px solid rgb(249, 249, 249, 0.85);
   border-radius: 10px;
-  width: 20rem;
+  width: 22rem;
   padding: 5px;
   display: inline-block;
   background: none;
   position: relative;
 }
+
+.title {
+    color:rgb(249, 249, 249, 0.85);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.03rem;
+    margin: 0;
+    padding: 6px;
+}
+
 /*--------------------------------/home*/
 
 /*--------------------------------about*/
