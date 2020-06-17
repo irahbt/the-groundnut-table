@@ -1,8 +1,8 @@
-/*--------------------------------home header*/
+/*--------------------------------home-header*/
 
-/*--------------------------------/home header*/
+/*--------------------------------/home-header*/
 /*--------------------------------logos*/
-.logo {
+.logo-orange {
     height: 50px;
 }
 .logo-white {
@@ -13,7 +13,7 @@
 
 /*--------------------------------home*/
 .home-container {
-  height: 100vh;
+  height: 95vh;
   background: url("../assets/images/home-bg.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -41,3 +41,11 @@
 
 /*--------------------------------join*/
 /*--------------------------------/join*/
+
+
+/*--------------------------------footer*/
+footer {
+    display: flex;
+    justify-content: center;
+}
+/*--------------------------------/footer*/
