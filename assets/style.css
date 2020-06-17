@@ -11,6 +11,19 @@ body {
 }
 /*----------------------------------------------Special text */
 
+/*--------------------------------navs*/
+.home-nav .nav-link{
+    padding: 0.5rem 1.2rem;
+    color: white;
+    font-weight: 200;
+    font-size: 22px;
+    letter-spacing: 0.2rem;
+}
+
+
+/*--------------------------------navs*/
+
+
 /*--------------------------------home-header*/
 
 /*--------------------------------home-header*/
@@ -29,10 +42,18 @@ body {
     overflow: hidden;
 }
 /*--------------------------------logos*/
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
 
 /*--------------------------------home*/
 .home-container {
-  height: 95vh;
+  height: 96vh;
   background: url("../assets/images/home-bg.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -48,7 +69,6 @@ body {
   border: 6.5px solid rgb(249, 249, 249, 0.85);
   border-radius: 10px;
   width: 22rem;
-  padding: 5px;
   display: inline-block;
   background: none;
   position: relative;
@@ -60,7 +80,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.03rem;
     margin: 0;
-    padding: 6px;
+    padding-top: 5px;
 }
 
 /*--------------------------------/home*/
@@ -76,5 +96,27 @@ body {
 footer {
     display: flex;
     justify-content: center;
+    background-color: rgb(211,211,211,0.5);
+}
+
+.social-links {
+        margin: 0;
+    padding: 4px;
+}
+
+.social-links li a i {
+  font-size: 20px;
+  color: #df8b3e;
 }
 /*--------------------------------/footer*/
+
+/*--------------------------------:hover*/
+.home-nav .nav-link:hover{
+    color: #df8b3e;
+}
+
+.social-links li a i:hover{
+        color:rgb(249, 249, 249, 0.85);
+}
+
+/*--------------------------------/:hover*/
