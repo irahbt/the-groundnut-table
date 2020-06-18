@@ -11,10 +11,14 @@ body {
 /*--------------------------------navs*/
 .nav .nav-link {
   padding: 0.5rem 1.2rem;
-  color: rgb(249, 249, 249);
+  color: black;
   font-weight: 200;
   font-size: 22px;
   letter-spacing: 0.2rem;
+}
+
+.home-nav .nav-link {
+    color: white;
 }
 
 .navbar {
@@ -31,6 +35,10 @@ body {
 
 .navbar-light .navbar-toggler {
     border: none;
+}
+
+.list-navbar {
+    margin: 0 auto;
 }
 /*--------------------------------navs*/
 
@@ -130,21 +138,30 @@ footer {
 .social-links {
   margin: 0;
   padding: 4px;
+    font-size: 20px;
 }
 
 .social-links li a i {
-  font-size: 20px;
-  color: rgb(223, 139,	62, 0.85);;
+      color: rgb(223, 139,	62, 0.85);
+
+}
+
+.home-social-links li a i {
+  color: rgb(249, 249, 249, 0.85);
 }
 /*--------------------------------/footer*/
 
 /*--------------------------------:hover*/
+.nav .nav-link:hover {
+      color: rgb(249, 249, 249, 0.85);
+}
+
 .home-nav .nav-link:hover {
   color: rgb(223, 139,	62, 0.85);
 }
 
-.social-links li a i:hover {
-  color: rgb(249, 249, 249, 0.85);
+.home-social-links li a i:hover {
+  color:rgb(223, 139,	62, 0.85);
 }
 
 /*--------------------------------/:hover*/
