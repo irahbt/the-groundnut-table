@@ -11,35 +11,34 @@ body {
 /*--------------------------------navs*/
 .nav .nav-link {
   padding: 0.5rem 1.2rem;
-  color: black;
+  color: rgb(105, 105, 105);
   font-weight: 200;
   font-size: 22px;
   letter-spacing: 0.2rem;
 }
 
 .home-nav .nav-link {
-    color: white;
+  color: white;
 }
 
 .navbar {
-   padding:0 5px 0 5px;
+  padding: 0 5px 0 5px;
 }
 
-
-.nav-toggle {
-  background-color: rgb(220, 220, 220, 0.5);
+.dropdown-nav {
+  background-color: rgb(220, 220, 220, 0.8);
 }
 
 .navbar-toggler {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .navbar-light .navbar-toggler {
-    border: none;
+  border: none;
 }
 
 .list-navbar {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 /*--------------------------------navs*/
 
@@ -53,7 +52,6 @@ body {
 .logo-orange,
 .logo-white {
   height: 50px;
-
 }
 
 .logo-orange-small {
@@ -123,7 +121,7 @@ body {
 
 /*--------------------------------about*/
 .about-hero-container {
-height: 70vh;
+  height: 70vh;
 
   background: url("../assets/images/groupphoto.png") no-repeat top center fixed;
   -webkit-background-size: cover;
@@ -137,24 +135,24 @@ height: 70vh;
 
   position: relative;
   animation-name: image-pan-out;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes image-pan-out {
-    from{
-      transform: scale(1.05)
-
-    }
-    to{
-      transform: scale(1)
-    }    
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 @media screen and (max-width: 600px) {
   .about-hero-container {
     height: 40vh;
-    background: url("../assets/images/groupphoto-small.png") no-repeat top center;
+    background: url("../assets/images/groupphoto-small.png") no-repeat top
+      center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -166,16 +164,18 @@ height: 70vh;
   }
 }
 
-
 .about-title {
-    color:	rgb(223, 139,	62, 0.85);
-    margin-top: 1.5rem;
+  color: rgb(223, 139, 62, 0.85);
+  margin-top: 1.5rem;
 }
 
-
+.about-content {
+  color: rgb(128, 128, 128);
+  font-weight: 200;
+}
 .widget-container {
-    margin-top: 30px;
-    margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 /*--------------------------------/about*/
@@ -193,11 +193,11 @@ footer {
 .social-links {
   margin: 0;
   padding: 4px;
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .social-links li a i {
-      color: rgb(223, 139,	62, 0.85);
+  color: rgb(223, 139, 62, 0.85);
 }
 
 .home-social-links li a i {
@@ -206,12 +206,14 @@ footer {
 /*--------------------------------/footer*/
 
 /*--------------------------------:hover*/
-.nav .nav-link:hover, .social-links li a i:hover {
-      color: rgb(249, 249, 249, 0.85);
+.nav .nav-link:hover,
+.social-links li a i:hover {
+  color: rgb(249, 249, 249, 0.85);
 }
 
-.home-nav .nav-link:hover, .home-social-links li a i:hover {
-  color: rgb(223, 139,	62, 0.85);
+.home-nav .nav-link:hover,
+.home-social-links li a i:hover {
+  color: rgb(223, 139, 62, 0.85);
 }
 
 /*--------------------------------/:hover*/
@@ -223,7 +225,6 @@ footer {
   border: 0;
   width: 30%;
   border-top: 2px solid;
-    color: rgb(223, 139,	62, 0.85);
-
+  color: rgb(223, 139, 62, 0.85);
 }
 /*--------------------------------/general*/
