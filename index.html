@@ -1,135 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/89255d1b7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <title>The Groundnut Table</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-	<script src="https://kit.fontawesome.com/89255d1b7b.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="/assets/style.css" />
-	<title>The Groundnut Table</title>
-</head>
+  <body>
+    <!-----------Nav----------->
+    <header class="nav">
+      <div class="fixed-top nav-toggle">
+        <nav class="navbar navbar-light navbar-expand-sm">
+          <a href="/" class="navbar-brand"
+            ><img
+              src="../assets/images/logo-white.png"
+              alt="the groundnut logo"
+              class="logo-white"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="row p-4">
+            <div class="col-6">
+              <ul class="nav nav-dropdown text-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">seats</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-<body>
-	<!-----------Home-Header----------->
-	<header class="home-nav home-navbar">
-		<div class="fixed-top">
-			<nav class="navbar navbar-light navbar-expand-sm">
-				<a href="/" class="navbar-brand"><img
-                src="../assets/images/logo-white.png"
-                alt="the groundnut logo"
-                class="logo-white"
-            /></a>
-					<button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarToggleExternalContent"
-              aria-controls="navbarToggleExternalContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-			</nav>
-			<div class="collapse" id="navbarToggleExternalContent">
-				<div class="row p-4">
-					<div class="col-6">
-						<ul class="nav nav-dropdown text-center">
-							<li class="nav-item">
-								<a class="nav-link" href="#">Home</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">About</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Seats</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+    <!-----------Nav----------->
 
-		</div>
-	</header>
+    <!-----------Home----------->
+    <div class="container-fluid home-container" id="home">
+      <div class="row">
+        <div class="opaque-overlay"></div>
 
-	<!-----------/Home-Header----------->
+        <div class="col-12">
+          <div class="box text-center">
+            <h1 class="title uppercase">
+              The Gr<img
+                src="../assets/images/logo-orange.png"
+                alt="O"
+                class="logo-orange-small"
+              />undnut Table
+            </h1>
+          </div>
+          <!-----------Nav Home----------->
+          <div class="row d-none d-sm-block text-center">
+            <div class="col-12">
+              <div class="home-nav">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">seats</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------/Nav Home----------->
 
-	<!-----------Home----------->
-	<div class="container-fluid home-container">
-		<div class="row">
-                  <div class="opaque-overlay"></div>
+    <!-----------/Home----------->
 
-			<div class="col">
+    <!-----------About----------->
+    <div class="container-fluid about-container" id="about">
+      <div class="row">
+        <!-----------Nav Home----------->
+        <div class="row d-none d-sm-block text-center">
+          <div class="col-12">
+            <div class="home-nav">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">seats</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-				<div class="box text-center">
-					<h1 class="title uppercase">
-						The Gr<img src="../assets/images/logo-orange.png" alt="O" class="
-                        logo-orange-small">undnut Table
-					</h1>
-				</div>
+    <!-----------/About----------->
 
-				<div class="row d-none d-sm-block text-center">
-					<div class="col">
-						<div class="home-nav">
-							<ul class="nav">
-								<li class="nav-item">
-									<a class="nav-link" href="#">home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">about</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">seats</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>   
-	<!-----------/Home----------->
+    <!-----------Join----------->
+    <!-----------/Join----------->
 
-	<!-----------About----------->
-	<!-----------/About----------->
+    <!-----------Footer----------->
+    <footer>
+      <ul class="list-inline social-links">
+        <li class="list-inline-item">
+          <a href="#" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+            <span class="sr-only">Facebook</span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" target="_blank">
+            <i class="fab fa-twitter"></i>
+            <span class="sr-only">Twitter</span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <span class="sr-only">Instagram</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
 
-	<!-----------Join----------->
-	<!-----------/Join----------->
+    <!-----------/Footer----------->
 
-	<!-----------Footer----------->
-	<footer>
-			<ul class="list-inline social-links">
-				<li class="list-inline-item">
-					<a href="#" target="_blank">
-						<i class="fab fa-facebook-f"></i>
-						<span class="sr-only">Facebook</span>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#" target="_blank">
-						<i class="fab fa-twitter"></i>
-						<span class="sr-only">Twitter</span>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#" target="_blank">
-						<i class="fab fa-instagram"></i>
-						<span class="sr-only">Instagram</span>
-					</a>
-				</li>
-			</ul>
-	</footer>
-
-	<!-----------/Footer----------->
-
-
-
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
 </html>
