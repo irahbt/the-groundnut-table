@@ -173,6 +173,10 @@ height: 70vh;
 }
 
 
+.widget-container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 
 /*--------------------------------/about*/
 
@@ -211,3 +215,15 @@ footer {
 }
 
 /*--------------------------------/:hover*/
+
+/*--------------------------------general*/
+.block-divider {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 30%;
+  border-top: 2px solid;
+    color: rgb(223, 139,	62, 0.85);
+
+}
+/*--------------------------------/general*/
