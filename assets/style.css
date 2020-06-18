@@ -70,10 +70,10 @@ body {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-/*--------------------------------home*/
-.home-container {
+/*--------------------------------background-images*/
+
+.background-container {
   height: 100vh;
-  background: url("../assets/images/home-bg.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,6 +84,17 @@ body {
   position: relative;
   overflow: hidden;
 }
+.seats-container {
+background: url("../assets/images/seats-bg.png") no-repeat center center fixed;
+}
+
+.home-container {
+      background: url("../assets/images/home-bg.png") no-repeat center center fixed;
+}
+/*--------------------------------/background-images*/
+
+/*--------------------------------home*/
+
 
 .box {
   border: 6.5px solid rgb(249, 249, 249, 0.85);
@@ -180,8 +191,9 @@ body {
 
 /*--------------------------------/about*/
 
-/*--------------------------------join*/
-/*--------------------------------/join*/
+/*--------------------------------seats*/
+
+/*--------------------------------/seats*/
 
 /*--------------------------------footer*/
 footer {
@@ -197,23 +209,23 @@ footer {
 }
 
 .social-links li a i {
-  color: rgb(223, 139, 62, 0.85);
+  color: rgb(249, 249, 249, 0.85);
 }
 
-.home-social-links li a i {
-  color: rgb(249, 249, 249, 0.85);
+.about-social-links li a i {
+  color: rgb(223, 139, 62, 0.85);
 }
 /*--------------------------------/footer*/
 
 /*--------------------------------:hover*/
 .nav .nav-link:hover,
 .social-links li a i:hover {
-  color: rgb(249, 249, 249, 0.85);
+  color: rgb(223, 139, 62, 0.85);
 }
 
 .home-nav .nav-link:hover,
-.home-social-links li a i:hover {
-  color: rgb(223, 139, 62, 0.85);
+.about-social-links li a i:hover {
+  color: rgb(249, 249, 249, 0.85);
 }
 
 /*--------------------------------/:hover*/
