@@ -25,6 +25,7 @@ body {
    padding:0 5px 0 5px;
 }
 
+
 .nav-toggle {
   background-color: rgb(220, 220, 220, 0.5);
 }
@@ -52,6 +53,7 @@ body {
 .logo-orange,
 .logo-white {
   height: 50px;
+
 }
 
 .logo-orange-small {
@@ -119,10 +121,58 @@ body {
 /*--------------------------------/home*/
 
 /*--------------------------------about*/
+.about-hero-container {
+height: 70vh;
+
+  background: url("../assets/images/groupphoto.png") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  animation-name: image-pan-out;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes image-pan-out {
+    from{
+      transform: scale(1.05)
+
+    }
+    to{
+      transform: scale(1)
+    }    
+}
+
+@media screen and (max-width: 600px) {
+  .about-hero-container {
+    height: 40vh;
+    background: url("../assets/images/groupphoto-small.png") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
+
+
 .about-title {
     color:	rgb(223, 139,	62, 0.85);
     margin-top: 1.5rem;
 }
+
+
+
 /*--------------------------------/about*/
 
 /*--------------------------------join*/
@@ -143,7 +193,6 @@ footer {
 
 .social-links li a i {
       color: rgb(223, 139,	62, 0.85);
-
 }
 
 .home-social-links li a i {
@@ -152,16 +201,12 @@ footer {
 /*--------------------------------/footer*/
 
 /*--------------------------------:hover*/
-.nav .nav-link:hover {
+.nav .nav-link:hover, .social-links li a i:hover {
       color: rgb(249, 249, 249, 0.85);
 }
 
-.home-nav .nav-link:hover {
+.home-nav .nav-link:hover, .home-social-links li a i:hover {
   color: rgb(223, 139,	62, 0.85);
-}
-
-.home-social-links li a i:hover {
-  color:rgb(223, 139,	62, 0.85);
 }
 
 /*--------------------------------/:hover*/
