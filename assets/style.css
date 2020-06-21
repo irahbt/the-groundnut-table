@@ -202,7 +202,6 @@ background: url("../assets/images/seats-bg.png") no-repeat center center fixed;
 footer {
   display: flex;
   justify-content: center;
-  background-color: none;
 }
 
 .social-links {
