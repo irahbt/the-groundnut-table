@@ -17,8 +17,9 @@ body {
   letter-spacing: 0.2rem;
 }
 
+
 .home-nav .nav-link {
-  color: white;
+  color: rgb(220, 220, 220, 0.8);
 }
 
 .navbar {
@@ -40,6 +41,8 @@ body {
 .list-navbar {
   margin: 0 auto;
 }
+
+
 /*--------------------------------navs*/
 
 /*--------------------------------home-header*/
@@ -101,7 +104,6 @@ background: url("../assets/images/seats-bg.png") no-repeat center center fixed;
   border-radius: 10px;
   width: 22rem;
   display: inline-block;
-  background: none;
   position: relative;
   animation-name: box-fade;
   animation-delay: 1s;
@@ -114,7 +116,7 @@ background: url("../assets/images/seats-bg.png") no-repeat center center fixed;
     background-color: rgb(249, 249, 249);
   }
   to {
-    background-color: none;
+    background-color: transparent;
   }
 }
 
@@ -193,6 +195,7 @@ background: url("../assets/images/seats-bg.png") no-repeat center center fixed;
 
 /*--------------------------------seats*/
 
+
 /*--------------------------------/seats*/
 
 /*--------------------------------footer*/
@@ -219,11 +222,11 @@ footer {
 
 /*--------------------------------:hover*/
 .nav .nav-link:hover,
-.social-links li a i:hover {
-  color: rgb(223, 139, 62, 0.85);
+.social-links li a i:hover, .home-nav:hover, .nav .active a{
+    color: rgb(223, 139, 62, 0.85)
 }
 
-.home-nav .nav-link:hover,
+.nav-link:hover,
 .about-social-links li a i:hover {
   color: rgb(249, 249, 249, 0.85);
 }
