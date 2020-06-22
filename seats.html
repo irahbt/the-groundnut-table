@@ -1,49 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/89255d1b7b.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/style.css" />
-    <title>The Groundnut Table</title>
-  </head>
 
-  <body>
-    <!-----------Nav----------->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	<script src="https://kit.fontawesome.com/89255d1b7b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/style.css" />
+	<title>The Groundnut Table</title>
+</head>
 
-    <header>
-      <div class="fixed-top dropdown-nav">
-        <nav class="navbar navbar-light navbar-expand-sm">
-          <a href="index.html" class="navbar-brand"
-            ><img
+<body>
+	<!-----------Nav----------->
+
+	<header>
+		<div class="fixed-top dropdown-nav">
+			<nav class="navbar navbar-light navbar-expand-sm">
+				<a href="index.html" class="navbar-brand"><img
               src="assets/images/logo-white.png"
               alt="the groundnut logo"
               class="logo-white"
           /></a>
-          <div class="list-navbar d-none d-sm-block">
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">about</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="seats.html">seats</a>
-              </li>
-            </ul>
-          </div>
+					<div class="list-navbar d-none d-sm-block">
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">about</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="seats.html">seats</a>
+							</li>
+						</ul>
+					</div>
 
-          <button
+					<button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -54,50 +47,53 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-        </nav>
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="row p-4">
-            <div class="col-6">
-              <ul class="nav nav-dropdown text-center">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">about</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="seats.html">seats</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+			</nav>
+			<div class="collapse" id="navbarToggleExternalContent">
+				<div class="row p-4">
+					<div class="col-6">
+						<ul class="nav nav-dropdown text-center">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">about</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="seats.html">seats</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
-    <!-----------/Nav----------->
-    <div class="container-fluid background-container seats-container">
-      <div class="row">
-        <div class="col">
-    <form class="border">
-  <div class="form-group">
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+	<!-----------/Nav----------->
+	<!-----------Form----------->
+
+	<div class="container-fluid background-container seats-container">
+		<div class="row">
+			<div class="col">
+				<form class="border">
+					<div class="form-group">
+						<label for="name">name</label>
+						<input type="text" class="form-control" id="name" placeholder="Name" required>
   </div>
-  <div class="form-group">
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+						<div class="form-group">
+							<label for="email">email</label>
+							<input type="email" class="form-control" id="email" placeholder="Email" required>
   </div>
-    <div class="form-group">
-      
-      <label for="exampleFormControlSelect2">Available dates</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
+							<div class="form-group">
+								<label for="dates-select">available dates</label>
+								<select class="form-control" id="dates-select" multiple required>
       <option>Date 1</option>
       <option>Date 2</option>
       <option>Date 3</option>
     </select>
-  </div>
-  <div class="form-group">
-      <label for="exampleFormControlSelect1">Guests</label>
-    <select class="form-control" id="exampleFormControlSelect1">
+							</div>
+							<div class="form-group">
+								<label for="guests-select">guests</label>
+								<select class="form-control" id="guests-select required">
       <option>1</option>
       <option>2</option>
       <option>3</option>
@@ -105,47 +101,52 @@
       <option>5</option>
       <option>6</option>
     </select>
-  </div>
+							</div>
 
 
-  <div class="form-group">
-   
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dietary Requirements"></textarea>
-  </div>
-  <input class="btn btn-primary" type="submit" value="Submit">
+							<div class="form-group">
+								<label for="dietary-requirements">dietary requirements</label>
 
-</form> 
-        </div>
-      </div>
-    </div>
-    <!-----------Footer----------->
-    <footer class="fixed-bottom">
-      <ul class="list-inline social-links">
-        <li class="list-inline-item hvr-icon-grow">
-          <a href="#" target="_blank">
-            <i class="fab fa-facebook-f hvr-icon"></i>
-            <span class="sr-only">Facebook</span>
-          </a>
-        </li>
-        <li class="list-inline-item hvr-icon-grow">
-          <a href="#" target="_blank">
-            <i class="fab fa-twitter hvr-icon"></i>
-            <span class="sr-only">Twitter</span>
-          </a>
-        </li>
-        <li class="list-inline-item hvr-icon-grow">
-          <a href="#" target="_blank">
-            <i class="fab fa-instagram hvr-icon"></i>
-            <span class="sr-only">Instagram</span>
-          </a>
-        </li>
-      </ul>
-    </footer>
+								<textarea class="form-control" id="dietary-requirements" rows="3" placeholder="Dietary Requirements"></textarea>
+							</div>
+							<div class="text-center">
+								<input class="btn" type="submit" value="submit">
+</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-----------/Form----------->
 
-    <!-----------/Footer----------->
+	<!-----------Footer----------->
+	<footer class="fixed-bottom">
+		<ul class="list-inline social-links">
+			<li class="list-inline-item hvr-icon-grow">
+				<a href="#" target="_blank">
+					<i class="fab fa-facebook-f hvr-icon"></i>
+					<span class="sr-only">Facebook</span>
+				</a>
+			</li>
+			<li class="list-inline-item hvr-icon-grow">
+				<a href="#" target="_blank">
+					<i class="fab fa-twitter hvr-icon"></i>
+					<span class="sr-only">Twitter</span>
+				</a>
+			</li>
+			<li class="list-inline-item hvr-icon-grow">
+				<a href="#" target="_blank">
+					<i class="fab fa-instagram hvr-icon"></i>
+					<span class="sr-only">Instagram</span>
+				</a>
+			</li>
+		</ul>
+	</footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  </body>
+	<!-----------/Footer----------->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
 </html>

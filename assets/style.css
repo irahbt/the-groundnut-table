@@ -206,7 +206,7 @@ form {
     padding: 20px;
     padding-bottom: 5px;
     margin: 100px;
-    
+    color: white;
     background-color: rgb(220, 220, 220, 0.3);
 }
 @media screen and (max-width: 600px) {
@@ -218,6 +218,33 @@ form {
 }
 }
 
+.form-control, #email, #name, #dates-select, #guests-select, #dietary-requirements{
+    background-color: rgb(220, 220, 220, 0.3);
+    color:rgb(249, 249, 249, 0.85);
+}
+
+
+#dates-select {
+    height: 80px;
+    padding: 2px;
+}
+
+#dates-select option {
+    padding: 3px;
+}
+
+.btn {
+    border: 1px solid rgb(220, 220, 220, 0.85);
+    color: rgb(220, 220, 220, 0.85);
+    background-color: rgb(223, 139, 62, 0.85);
+}
+
+label {
+    margin: 1px;
+    font-weight: 200;
+    font-size: small;
+    letter-spacing: 0.1rem;
+}
 /*--------------------------------/seats*/
 
 /*--------------------------------footer*/
