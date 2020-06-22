@@ -203,19 +203,17 @@ justify-content: left;
 /*--------------------------------seats*/
 form {
     max-width: 25rem;
-    min-width: 18rem;
     padding: 20px;
     padding-bottom: 5px;
     margin: 100px;
+    
     background-color: rgb(220, 220, 220, 0.3);
 }
 @media screen and (max-width: 600px) {
     form {
-    max-width: 25rem;
-    min-width: 18rem;
     padding: 20px;
     padding-bottom: 5px;
-    margin-top: 100px;
+    margin: 100px 0px 100px 0px;
     background-color: rgb(220, 220, 220, 0.3);
 }
 }
