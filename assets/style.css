@@ -12,7 +12,7 @@ body {
 .nav .nav-link {
   padding: 0.5rem 1.2rem;
   color: rgb(105, 105, 105);
-  font-weight: 200;
+  font-weight: 300;
   font-size: 22px;
   letter-spacing: 0.2rem;
 }
@@ -81,27 +81,34 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   overflow: hidden;
-}
-.seats-container {
-background: url("../assets/images/seats-bg.png") no-repeat center center fixed;
 }
 
 .home-container {
       background: url("../assets/images/home-bg.png") no-repeat center center fixed;
+      display: flex;
+  align-items: center;
+justify-content: center;
 }
-/*--------------------------------/background-images*/
+.seats-container {
+background: url("../assets/images/seats-bg.png") no-repeat center center fixed;
+justify-content: left;
 
+}
+
+
+/*--------------------------------/background-images*/
+/*--------------------------------borders*/
+.border {
+    border: solid rgb(249, 249, 249, 0.85);
+  border-radius: 10px;
+}
+/*--------------------------------borders*/
 /*--------------------------------home*/
 
 
 .box {
-  border: 6.5px solid rgb(249, 249, 249, 0.85);
-  border-radius: 10px;
   width: 22rem;
   display: inline-block;
   position: relative;
@@ -194,7 +201,24 @@ background: url("../assets/images/seats-bg.png") no-repeat center center fixed;
 /*--------------------------------/about*/
 
 /*--------------------------------seats*/
-
+form {
+    max-width: 25rem;
+    min-width: 18rem;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin: 100px;
+    background-color: rgb(220, 220, 220, 0.3);
+}
+@media screen and (max-width: 600px) {
+    form {
+    max-width: 25rem;
+    min-width: 18rem;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin-top: 100px;
+    background-color: rgb(220, 220, 220, 0.3);
+}
+}
 
 /*--------------------------------/seats*/
 
@@ -248,7 +272,6 @@ footer {
 .social-links li a i:hover {
     color: rgb(223, 139, 62, 0.85);
 }
-
 
 
 .nav-link:hover,
