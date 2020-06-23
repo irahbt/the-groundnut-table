@@ -17,16 +17,16 @@
   <body>
     <!-----------Nav----------->
 
-    <header>
+     <header>
       <div class="fixed-top dropdown-nav">
         <nav class="navbar navbar-light navbar-expand-sm">
           <a href="index.html" class="navbar-brand"
             ><img
-              src="assets/images/logo-orange.png"
+              src="assets/images/logo-white.png"
               alt="the groundnut logo"
               class="logo-white"
           /></a>
-          <div class="list-navbar d-none d-sm-block">
+          <div class="list-navbar d-none d-sm-flex justify-content-center">
             <ul class="nav">
               <li class="nav-item">
                 <a class="nav-link" href="#home">home</a>
@@ -52,6 +52,23 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="row p-4">
+            <div class="col-6">
+              <ul class="nav nav-dropdown text-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#seats">seats</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <!-----------Nav----------->
@@ -192,16 +209,16 @@
                 >available dates, new dates added on the first of every
                 month</label
               >
+              <div class="form-group">
               <select
                 class="form-control form-control-sm"
-                id="dates-select"
-                multiple
-                required
+                id="dates-select" required
               >
                 <option>Saturday 5th July 2020, St John's Hall</option>
                 <option>Saturday 19th July 2020, St John's Hall</option>
                 <option>Saturday 2nd August 2020, St John's Hall</option>
               </select>
+            </div>
             </div>
             <div class="form-group">
               <label for="guests-select">guests</label>
@@ -233,32 +250,31 @@
           </form>
         </div>
       </div>
-</div>
-      <!--footer-->
-      <footer class=" d-flex justify-content-center">
-            <ul class="list-inline social-links">
-              <li class="list-inline-item hvr-icon-grow">
-                <a href="#" target="_blank">
-                  <i class="fab fa-facebook-f hvr-icon"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item hvr-icon-grow">
-                <a href="#" target="_blank">
-                  <i class="fab fa-twitter hvr-icon"></i>
-                  <span class="sr-only hvr-icon">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item hvr-icon-grow">
-                <a href="#" target="_blank">
-                  <i class="fab fa-instagram hvr-icon"></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-            </ul>
-        
-         </footer>
-    
+    </div>
+    <!--footer-->
+    <footer class="d-flex justify-content-center">
+      <ul class="list-inline social-links">
+        <li class="list-inline-item hvr-icon-grow">
+          <a href="#" target="_blank">
+            <i class="fab fa-facebook-f hvr-icon"></i>
+            <span class="sr-only">Facebook</span>
+          </a>
+        </li>
+        <li class="list-inline-item hvr-icon-grow">
+          <a href="#" target="_blank">
+            <i class="fab fa-twitter hvr-icon"></i>
+            <span class="sr-only hvr-icon">Twitter</span>
+          </a>
+        </li>
+        <li class="list-inline-item hvr-icon-grow">
+          <a href="#" target="_blank">
+            <i class="fab fa-instagram hvr-icon"></i>
+            <span class="sr-only">Instagram</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
     <!-----------Footer----------->
 
     <!-----------/Footer----------->

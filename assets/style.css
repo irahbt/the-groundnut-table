@@ -17,10 +17,6 @@ body {
   letter-spacing: 0.2rem;
 }
 
-.home-nav .nav-link {
-  color: rgb(220, 220, 220, 0.8);
-}
-
 .navbar {
   padding: 0 5px 0 5px;
 }
@@ -157,14 +153,14 @@ form {
   padding-bottom: 5px;
   margin: 100px;
   color: white;
-  background-color: rgb(220, 220, 220, 0.3);
+  background-color: rgb(64, 64, 64, 0.5);
 }
 @media screen and (max-width: 600px) {
   form {
     padding: 20px;
     padding-bottom: 5px;
     margin: 100px 0px 100px 0px;
-    background-color: rgb(220, 220, 220, 0.3);
+    background-color: rgb(64, 64, 64, 0.5);
   }
 }
 
@@ -176,15 +172,6 @@ form {
 #dietary-requirements {
   background-color: rgb(220, 220, 220, 0.3);
   color: rgb(249, 249, 249, 0.85);
-}
-
-#dates-select {
-  height: 60px;
-  padding: 3px;
-}
-
-#dates-select option {
-  padding: 3px;
 }
 
 .btn {
