@@ -294,8 +294,8 @@ footer {
 }
 
 .nav .nav-link:hover,
-.social-links li a i:hover, {
-    color: rgb(223, 139, 62, 0.85);
+.social-links li a i:hover {
+    color:rgb(223, 139, 62, 0.85);
 }
 
 
