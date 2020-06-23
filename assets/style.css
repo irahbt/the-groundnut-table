@@ -12,7 +12,7 @@ body {
 .nav .nav-link {
   padding: 0.5rem 1.2rem;
   color: rgb(105, 105, 105);
-  font-weight: 500;
+  font-weight: 300;
   font-size: 22px;
   letter-spacing: 0.2rem;
 }
@@ -33,9 +33,7 @@ body {
   border: none;
 }
 
-.list-navbar {
-  margin: 0 auto;
-}
+
 
 /*--------------------------------navs*/
 
@@ -200,8 +198,10 @@ label {
   color: rgb(249, 249, 249, 0.85);
 }
 
-.about-social-links li a i {
+.social-links li a i {
   color: rgb(223, 139, 62, 0.85);
+  padding: 4px;
+  font-size: 20px;
 }
 /*--------------------------------/footer*/
 
