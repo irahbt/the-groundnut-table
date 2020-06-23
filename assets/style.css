@@ -294,7 +294,7 @@ footer {
 }
 
 .nav .nav-link:hover,
-.social-links li a i:hover {
+.social-links li a i:hover, {
     color: rgb(223, 139, 62, 0.85);
 }
 
@@ -304,6 +304,11 @@ footer {
   color: rgb(249, 249, 249, 0.85);
 }
 
+.btn:hover {
+    border: 1px solid rgb(223, 139, 62, 0.85);
+    background-color: rgb(249, 249, 249, 0.85);
+    color:rgb(223, 139, 62, 0.85);
+}
 
 /*--------------------------------/:hover*/
 
