@@ -9,10 +9,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <script
-      src="https://kit.fontawesome.com/89255d1b7b.js"
-      crossorigin="anonymous"
-    ></script>
+
     <link rel="stylesheet" href="assets/style.css" />
     <title>The Groundnut Table</title>
   </head>
@@ -44,7 +41,7 @@
           </div>
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler mr-2"
             type="button"
             data-toggle="collapse"
             data-target="#navbarToggleExternalContent"
@@ -55,33 +52,19 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         </nav>
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="row p-4">
-            <div class="col-6">
-              <ul class="nav nav-dropdown text-center">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">about</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="seats.html">seats</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
     </header>
     <!-----------Nav----------->
 
     <!-----------Home----------->
-    <div id="home" class="container-fluid background-container home-container">
+    <div
+      id="home"
+      class="container-fluid background-container home-container d-flex justify-content-center align-items-center"
+    >
       <div class="row">
         <div class="opaque-overlay"></div>
 
-        <div class="col">
+        <div class="col d-flex">
           <div class="box border text-center">
             <h1 class="title uppercase">
               The Gr<img
@@ -98,7 +81,7 @@
     <!-----------/Nav Home----------->
 
     <!-----------/Home----------->
-    
+
     <!-----------/About Image----------->
 
     <!-----------About----------->
@@ -176,10 +159,10 @@
         </div>
       </div>
     </div>
-
+    <!---seats-->
     <div
       id="seats"
-      class="container-fluid background-container seats-container"
+      class="container-fluid background-container seats-container d-flex justify-content-center align-items-center"
     >
       <div class="row">
         <div class="col">
@@ -250,33 +233,39 @@
           </form>
         </div>
       </div>
-    </div>
+</div>
+      <!--footer-->
+      <footer class=" d-flex justify-content-center">
+            <ul class="list-inline social-links">
+              <li class="list-inline-item hvr-icon-grow">
+                <a href="#" target="_blank">
+                  <i class="fab fa-facebook-f hvr-icon"></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+              <li class="list-inline-item hvr-icon-grow">
+                <a href="#" target="_blank">
+                  <i class="fab fa-twitter hvr-icon"></i>
+                  <span class="sr-only hvr-icon">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item hvr-icon-grow">
+                <a href="#" target="_blank">
+                  <i class="fab fa-instagram hvr-icon"></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+            </ul>
+        
+         </footer>
+    
     <!-----------Footer----------->
-    <footer class="fixed-bottom">
-      <ul class="list-inline social-links">
-        <li class="list-inline-item hvr-icon-grow">
-          <a href="#" target="_blank">
-            <i class="fab fa-facebook-f hvr-icon"></i>
-            <span class="sr-only">Facebook</span>
-          </a>
-        </li>
-        <li class="list-inline-item hvr-icon-grow">
-          <a href="#" target="_blank">
-            <i class="fab fa-twitter hvr-icon"></i>
-            <span class="sr-only hvr-icon">Twitter</span>
-          </a>
-        </li>
-        <li class="list-inline-item hvr-icon-grow">
-          <a href="#" target="_blank">
-            <i class="fab fa-instagram hvr-icon"></i>
-            <span class="sr-only">Instagram</span>
-          </a>
-        </li>
-      </ul>
-    </footer>
 
     <!-----------/Footer----------->
-
+    <script
+      src="https://kit.fontawesome.com/89255d1b7b.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
