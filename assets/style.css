@@ -29,7 +29,7 @@ body {
   border: none;
 }
 
-/*--------------------------------headings*/
+/*--------------------------------text*/
 
 .title-heading {
   color: rgb(249, 249, 249, 0.85);
@@ -44,6 +44,10 @@ body {
   color: rgb(223, 139, 62, 0.85);
 }
 
+p {
+  color: rgb(128, 128, 128);
+  font-weight: 200;
+}
 /*--------------------------------logos*/
 
 .logo-orange,
@@ -51,20 +55,24 @@ body {
   height: 50px;
 }
 
-.logo-orange-small {
+.logo-orange-small, .logo-orange-xsmall {
   height: 28px;
   position: relative;
   bottom: 5px;
   overflow: hidden;
 }
 
+.logo-orange-xsmall {
+    height: 15px;
+    bottom: 1px;
+}
 /*--------------------------------backgrounds*/
 .container-fluid {
   overflow: hidden;
 }
 
 .background-container {
-  height: 85vh;
+  height: 90vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +84,8 @@ body {
 }
 
 .widget-container { 
-   background-color:rgb(211,211,211);
+    height: 70vh;
+  background-image: url("../assets/images/widget-bg.png");
 }
 
 }
@@ -123,11 +132,17 @@ body {
 
 /*--------------------------------about*/
 
-p {
-  color: rgb(128, 128, 128);
-  font-weight: 200;
+
+.signature {
+    font-weight: 500;
+    font-size: large;
+
 }
 
+iframe {
+    border: 5px solid rgb(249, 249, 249, 0.85);
+    border-radius: 3px;
+}
 
 /*--------------------------------details*/
 
@@ -189,10 +204,6 @@ label {
   margin: 0;
   padding: 4px;
   font-size: 20px;
-}
-
-.social-links li a i {
-  color: rgb(249, 249, 249, 0.85);
 }
 
 .social-links li a i {
