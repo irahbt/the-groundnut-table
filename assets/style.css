@@ -4,9 +4,6 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
-/*----------------------------------------------Special text */
-
-/*----------------------------------------------Special text */
 
 /*--------------------------------navs*/
 .nav .nav-link {
@@ -56,7 +53,7 @@ body {
   overflow: hidden;
 }
 /*--------------------------------logos*/
-.opaque-overlay {
+/*.opaque-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -66,18 +63,16 @@ body {
 }
 
 /*--------------------------------background-images*/
+.container-fluid {
+    overflow: hidden;
+}
 
 .background-container {
-  height: 80vh;
+  height: 60vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  position: relative;
-  overflow: hidden;
 }
 
 .home-container {
@@ -131,7 +126,6 @@ body {
 
 .about-title {
   color: rgb(223, 139, 62, 0.85);
-  margin-top: 1.5rem;
 }
 
 .about-content {

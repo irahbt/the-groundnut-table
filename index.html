@@ -15,9 +15,8 @@
   </head>
 
   <body>
-    <!-----------Nav----------->
-
-     <header>
+    <!--Nav-->
+    <header>
       <div class="fixed-top dropdown-nav">
         <nav class="navbar navbar-light navbar-expand-sm">
           <a href="index.html" class="navbar-brand"
@@ -53,35 +52,29 @@
           </button>
         </nav>
         <div class="collapse" id="navbarToggleExternalContent">
-          <div class="row p-4">
-            <div class="col-6">
-              <ul class="nav nav-dropdown text-center">
-                <li class="nav-item">
-                  <a class="nav-link" href="#home">home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">about</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#seats">seats</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <ul class="nav nav-dropdown text-center d-flex justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#seats">seats</a>
+            </li>
+          </ul>
+        
         </div>
       </div>
     </header>
-    <!-----------Nav----------->
 
-    <!-----------Home----------->
+    <!--Home-->
     <div
       id="home"
       class="container-fluid background-container home-container d-flex justify-content-center align-items-center"
     >
       <div class="row">
-        <div class="opaque-overlay"></div>
-
-        <div class="col d-flex">
+        <div class="col">
           <div class="box border text-center">
             <h1 class="title uppercase">
               The Gr<img
@@ -91,22 +84,16 @@
               />undnut Table
             </h1>
           </div>
-          <!-----------Home Nav----------->
         </div>
       </div>
     </div>
-    <!-----------/Nav Home----------->
-
-    <!-----------/Home----------->
-
-    <!-----------/About Image----------->
 
     <!-----------About----------->
 
     <div id="about" class="container-fluid about-container">
       <div class="row">
         <div class="col">
-          <h1 class="text-center title about-title">About</h1>
+          <h1 class="text-center title about-title pt-5 mt-3">About</h1>
         </div>
         <div class="row mx-4 about-content">
           <div class="col-12 col-md-4 py-2">
@@ -146,30 +133,39 @@
           <p class="text-center">- Duval, Jacob and Folayemi</p>
         </div>
       </div>
-    </div>
 
-    <hr class="block-divider" />
+      <hr class="block-divider" />
 
-    <div class="row">
-      <div class="col">
-        <h2>
-          All Groundnut Tables are held at St. John's Hall, Fair St, London SE1
-          2AJ
-        </h2>
-        <p>Date options, check back here for new dates</p>
-      </div>
-    </div>
-    
-    <hr class="block-divider" />
-
-    <div class="container-fluid widget-container d-flex justify-content-center align-items-center">
       <div class="row">
         <div class="col">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/MlSmSDHcrJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h2>
+            All Groundnut Tables are held at St. John's Hall, Fair St, London
+            SE1 2AJ
+          </h2>
+          <p>Date options, check back here for new dates</p>
         </div>
       </div>
     </div>
-    <!---seats-->
+    <hr class="block-divider" />
+
+    <div
+      class="container-fluid widget-container d-flex justify-content-center align-items-center"
+    >
+      <div class="row">
+        <div class="col">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/MlSmSDHcrJk"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!--seats-->
     <div
       id="seats"
       class="container-fluid background-container seats-container d-flex justify-content-center align-items-center"
@@ -203,15 +199,16 @@
                 month</label
               >
               <div class="form-group">
-              <select
-                class="form-control form-control-sm"
-                id="dates-select" required
-              >
-                <option>Saturday 5th July 2020, St John's Hall</option>
-                <option>Saturday 19th July 2020, St John's Hall</option>
-                <option>Saturday 2nd August 2020, St John's Hall</option>
-              </select>
-            </div>
+                <select
+                  class="form-control form-control-sm"
+                  id="dates-select"
+                  required
+                >
+                  <option>Saturday 5th July 2020, St John's Hall</option>
+                  <option>Saturday 19th July 2020, St John's Hall</option>
+                  <option>Saturday 2nd August 2020, St John's Hall</option>
+                </select>
+              </div>
             </div>
             <div class="form-group">
               <label for="guests-select">Seats</label>
