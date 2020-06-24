@@ -32,13 +32,22 @@ body {
 
 
 
-/*--------------------------------navs*/
+/*--------------------------------headings*/
 
-/*--------------------------------home-header*/
+.title-heading {
+  color: rgb(249, 249, 249, 0.85);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+  margin: 0;
+  padding-top: 5px;
+}
 
-/*--------------------------------home-header*/
+.general-heading {
+  color: rgb(223, 139, 62, 0.85);
+}
 
-/*--------------------------------/home-header*/
 /*--------------------------------logos*/
 
 .logo-orange,
@@ -52,23 +61,15 @@ body {
   bottom: 5px;
   overflow: hidden;
 }
-/*--------------------------------logos*/
-/*.opaque-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.05);
-}
 
-/*--------------------------------background-images*/
+
+/*--------------------------------backgrounds*/
 .container-fluid {
     overflow: hidden;
 }
 
 .background-container {
-  height: 70vh;
+  height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,9 +79,14 @@ body {
 .home-container {
   background-image: url("../assets/images/home-bg.png");
 }
+.details-container {
+    height: 80vh;
+    }
+
 .seats-container {
   background-image: url("../assets/images/seats-bg.png");
 }
+
 
 /*--------------------------------/background-images*/
 /*--------------------------------borders*/
@@ -110,23 +116,11 @@ body {
   }
 }
 
-.title {
-  color: rgb(249, 249, 249, 0.85);
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.03rem;
-  margin: 0;
-  padding-top: 5px;
-}
 
 /*--------------------------------/home*/
 
 /*--------------------------------about*/
 
-.about-title {
-  color: rgb(223, 139, 62, 0.85);
-}
 
 .about-content {
   color: rgb(128, 128, 128);
