@@ -75,10 +75,14 @@ body {
 .home-container {
   background-image: url("../assets/images/home-bg.png");
 }
+
+.widget-container { 
+   background-color:rgb(211,211,211);
+}
+
+}
 .details-container {
-  color: rgb(249, 249, 249, 0.85);
-  background-color: rgb(211, 211, 211);
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .seats-container {
@@ -87,8 +91,12 @@ body {
 
 /*--------------------------------borders*/
 .border {
-  border: solid rgb(249, 249, 249, 0.85);
-  border-radius: 10px;
+     border: solid rgb(249, 249, 249, 0.85);
+     border-radius: 10px;
+}
+
+.details-border {
+     border: solid orange;
 }
 
 /*--------------------------------home*/
@@ -120,10 +128,7 @@ p {
   color: rgb(128, 128, 128);
   font-weight: 200;
 }
-.widget-container {
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
+
 
 /*--------------------------------details*/
 
@@ -132,9 +137,10 @@ p {
   padding: 0;
 }
 
-.details-box p {
-    color: white;
+.details-box i, .details-box p {
+    color:rgb(249, 249, 249, 0.85);
 }
+
 
 /*--------------------------------seats*/
 form {
