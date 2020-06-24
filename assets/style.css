@@ -72,7 +72,7 @@ p {
 }
 
 .background-container {
-  height: 90vh;
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,11 +84,11 @@ p {
 }
 
 .about-container {
-    height: 80vh;
+  
 }
 
 .widget-container { 
-    height: 70vh;
+
   background-image: url("../assets/images/widget-bg.png");
 }
 
