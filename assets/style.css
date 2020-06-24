@@ -4,7 +4,6 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
-
 /*--------------------------------navs*/
 .nav .nav-link {
   padding: 0.5rem 1.2rem;
@@ -29,8 +28,6 @@ body {
 .navbar-light .navbar-toggler {
   border: none;
 }
-
-
 
 /*--------------------------------headings*/
 
@@ -62,10 +59,9 @@ body {
   overflow: hidden;
 }
 
-
 /*--------------------------------backgrounds*/
 .container-fluid {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .background-container {
@@ -80,21 +76,21 @@ body {
   background-image: url("../assets/images/home-bg.png");
 }
 .details-container {
-    height: 80vh;
-    }
+  color: rgb(249, 249, 249, 0.85);
+  background-color: rgb(211, 211, 211);
+  overflow: hidden;
+}
 
 .seats-container {
   background-image: url("../assets/images/seats-bg.png");
 }
 
-
-/*--------------------------------/background-images*/
 /*--------------------------------borders*/
 .border {
   border: solid rgb(249, 249, 249, 0.85);
   border-radius: 10px;
 }
-/*--------------------------------borders*/
+
 /*--------------------------------home*/
 
 .box {
@@ -116,13 +112,11 @@ body {
   }
 }
 
-
 /*--------------------------------/home*/
 
 /*--------------------------------about*/
 
-
-.about-content {
+p {
   color: rgb(128, 128, 128);
   font-weight: 200;
 }
@@ -131,7 +125,16 @@ body {
   margin-bottom: 50px;
 }
 
-/*--------------------------------/about*/
+/*--------------------------------details*/
+
+.details-box {
+  background-color: rgb(64, 64, 64, 0.5);
+  padding: 0;
+}
+
+.details-box p {
+    color: white;
+}
 
 /*--------------------------------seats*/
 form {
@@ -172,7 +175,6 @@ label {
   font-size: small;
   letter-spacing: 0.1rem;
 }
-
 
 /*--------------------------------/seats*/
 
