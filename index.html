@@ -56,9 +56,7 @@
           </button>
         </nav>
         <div class="collapse" id="navbarToggleExternalContent">
-          <ul
-            class="nav nav-dropdown text-center d-flex justify-content-center"
-          >
+          <ul class="nav nav-dropdown col-1">
             <li class="nav-item">
               <a class="nav-link" href="#home">home</a>
             </li>
@@ -143,7 +141,6 @@
     <div
       class="container-fluid widget-container d-flex justify-content-center align-items-center background-container"
     >
-   
       <div class="row m-5">
         <div class="col">
           <iframe
@@ -161,7 +158,10 @@
 
     <!--details-->
 
-    <div id="details" class="container-fluid details-container text-center mt-5 mb-4">
+    <div
+      id="details"
+      class="container-fluid details-container text-center mt-5 mb-4"
+    >
       <h1 class="title-heading general-heading pt-5 pb-2 mt-3 mb-1">
         Details
       </h1>
@@ -219,13 +219,13 @@
 
     <div
       id="seats"
-      class="container-fluid background-container seats-container d-flex justify-content-center align-items-center mt-4"
+      class="container-fluid background-container seats-container d-flex justify-content-center align-items-center"
     >
       <div class="row">
         <div class="col">
           <div class="row">
             <div class="col">
-              <h1 class="text-center title-heading mb-1">
+              <h1 class="text-center title-heading">
                 Seats
               </h1>
             </div>
@@ -303,9 +303,9 @@
     <!--footer-->
 
     <footer>
-      <div class="container-fluid">
+      <div class="container-fluid mb-0">
         <div class="row">
-          <div class="col-4 d-none d-md-flex text-left">
+          <div class="col-4 d-none d-md-flex text-left mt-2">
             <p>
               The Gr<img
                 src="assets/images/logo-orange.png"
@@ -314,8 +314,8 @@
               />undnut Table
             </p>
           </div>
-          <div class="col-4 text-center">
-            <ul class="list-inline social-links">
+          <div class="col-6 col-sm-4 text-center">
+            <ul class="list-inline social-links pt-1">
               <li class="list-inline-item hvr-icon-grow">
                 <a href="#" target="_blank">
                   <i class="fab fa-facebook-f hvr-icon" aria-hidden="true"></i>
@@ -336,8 +336,10 @@
               </li>
             </ul>
           </div>
-          <div class="col-4 text-right">
+          <div class="col-6 col-sm-4 mt-2 text-right">
             <p>
+              <i class="fas fa-phone-alt phone" aria-hidden="true">
+                  <span class="sr-only">Phone number:</span></i>
               020-555-555
             </p>
           </div>
