@@ -293,3 +293,6 @@ label {
   color: rgb(223, 139, 62, 0.85);
 }
 /*--------------------------------/general*/
+$('#navbarToggleExternalContent').on('hidden.bs.collapse', function () {
+  // do something…
+})
