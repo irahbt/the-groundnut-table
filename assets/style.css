@@ -55,7 +55,8 @@ p {
   height: 50px;
 }
 
-.logo-orange-small, .logo-orange-xsmall {
+.logo-orange-small,
+.logo-orange-xsmall {
   height: 28px;
   position: relative;
   bottom: 5px;
@@ -63,55 +64,65 @@ p {
 }
 
 .logo-orange-xsmall {
-    height: 15px;
-    bottom: 1px;
+  height: 15px;
+  bottom: 1px;
 }
 /*--------------------------------backgrounds*/
-.container-fluid {
+.container-fluid,
+.details-container {
   overflow: hidden;
 }
 
 .background-container {
-    height: 80vh;
+  height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 .home-container {
   background-image: url("../assets/images/home-bg.png");
 }
 
-.about-container {
-  
+@media screen and (max-width: 600px) {
+  .home-container {
+    background: url("../assets/images/home-bg.png");
+  }
 }
 
-.widget-container { 
-    height: 60vh;
+.about-container {
+}
+
+.widget-container {
+  height: 60vh;
   background-image: url("../assets/images/widget-bg.png");
 }
-
-.details-container {
-    overflow: hidden;
-
+@media screen and (max-width: 600px) {
+  .widget-container {
+    height: 60vh;
+    background: url("../assets/images/widget-bg.png");
+  }
 }
 
 .seats-container {
   background-image: url("../assets/images/seats-bg.png");
 }
 
+@media screen and (max-width: 600px) {
+  .seats-container {
+    background: url("../assets/images/seats-bg.png");
+  }
+}
+
 /*--------------------------------borders*/
 .border {
-     border: solid rgb(249, 249, 249, 0.85);
-     border-radius: 10px;
+  border: solid rgb(249, 249, 249, 0.85);
+  border-radius: 10px;
 }
 
 .details-border {
-     border: solid orange;
+  border: solid orange;
 }
 
 /*--------------------------------home*/
@@ -139,16 +150,14 @@ p {
 
 /*--------------------------------about*/
 
-
 .signature {
-    font-weight: 500;
-    font-size: large;
-
+  font-weight: 500;
+  font-size: large;
 }
 
 iframe {
-    border: 5px solid rgb(249, 249, 249, 0.85);
-    border-radius: 3px;
+  border: 5px solid rgb(249, 249, 249, 0.85);
+  border-radius: 3px;
 }
 
 /*--------------------------------details*/
@@ -158,10 +167,10 @@ iframe {
   padding: 0;
 }
 
-.details-box i, .details-box p {
-    color:rgb(249, 249, 249, 0.85);
+.details-box i,
+.details-box p {
+  color: rgb(249, 249, 249, 0.85);
 }
-
 
 /*--------------------------------seats*/
 form {
