@@ -48,6 +48,17 @@ p {
   color: rgb(128, 128, 128);
   font-weight: 200;
 }
+
+.about {
+  font-size: small;
+  letter-spacing: 0.1rem;
+}
+
+.signature {
+  font-weight: 400;
+  font-size: large;
+  letter-spacing: 0.1rem;
+}
 /*--------------------------------logos*/
 
 .logo-orange,
@@ -74,7 +85,7 @@ p {
 }
 
 .background-container {
-  height: 80vh;
+  height: 85vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,6 +123,7 @@ p {
 @media screen and (max-width: 768px) {
   .seats-container {
     background: url("../assets/images/seats-bg.png");
+    background-position: right;
   }
 }
 
@@ -149,11 +161,6 @@ p {
 /*--------------------------------/home*/
 
 /*--------------------------------about*/
-
-.signature {
-  font-weight: 500;
-  font-size: large;
-}
 
 iframe {
   border: 5px solid rgb(249, 249, 249, 0.85);
