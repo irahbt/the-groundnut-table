@@ -85,7 +85,7 @@ p {
   background-image: url("../assets/images/home-bg.png");
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .home-container {
     background: url("../assets/images/home-bg.png");
   }
@@ -98,7 +98,7 @@ p {
   height: 60vh;
   background-image: url("../assets/images/widget-bg.png");
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .widget-container {
     height: 60vh;
     background: url("../assets/images/widget-bg.png");
@@ -109,7 +109,7 @@ p {
   background-image: url("../assets/images/seats-bg.png");
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .seats-container {
     background: url("../assets/images/seats-bg.png");
   }
