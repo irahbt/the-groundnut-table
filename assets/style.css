@@ -106,12 +106,13 @@ p {
 }
 
 .widget-container {
-  height: 60vh;
+  height: 50vh;
   background-image: url("../assets/images/widget-bg.png");
 }
+
 @media screen and (max-width: 768px) {
   .widget-container {
-    height: 60vh;
+    height: 50vh;
     background: url("../assets/images/widget-bg.png");
   }
 }
