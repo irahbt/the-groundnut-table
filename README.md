@@ -14,7 +14,7 @@ This is a website for “The Groundnut Table” supper-club. It is designed to b
 
 - #### First Time User Goals
 
-   1. As a First Time User, I want to …
+   1. As a First Time User, I want to understand the main purpose of the enterprise 
    
    2. As a First Time User, I want to be able to navigate intuitively through the site 
    
