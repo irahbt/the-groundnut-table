@@ -105,7 +105,7 @@ p {
 
 @media screen and (max-width: 768px) {
   .details-container {
-    height: 900px;
+    height: 800px;
     background: url("../assets/images/widget-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
