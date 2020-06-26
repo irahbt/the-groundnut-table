@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-
 html {
   scroll-behavior: smooth;
 }
-
 
 body {
   font-family: "Spartan", sans-serif;
@@ -50,12 +48,12 @@ p {
   letter-spacing: 0.1rem;
 }
 
-.signature, .navbar-nav {
+.signature,
+.navbar-nav {
   font-weight: 400;
   font-size: large;
   letter-spacing: 0.1rem;
 }
-
 
 /*--------------------------------logos*/
 
@@ -77,8 +75,7 @@ p {
   bottom: 1px;
 }
 /*--------------------------------backgrounds*/
-.container-fluid,
-.details-container {
+.container-fluid {
   overflow: hidden;
 }
 
@@ -101,20 +98,20 @@ p {
   }
 }
 
-.about-container {
-}
-
-.widget-container {
+.details-container {
   height: 50vh;
   background-image: url("../assets/images/widget-bg.png");
 }
 
-@media screen and (max-width: 768px) {
-  .widget-container {
-    height: 50vh;
+@media screen and (max-width: 576px) {
+  .details-container {
+    height: 900px;
     background: url("../assets/images/widget-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
+
 
 .seats-container {
   background-image: url("../assets/images/seats-bg.png");
@@ -153,8 +150,6 @@ p {
     background-color: transparent;
   }
 }
-
-/*--------------------------------/home*/
 
 /*--------------------------------about*/
 
@@ -234,13 +229,13 @@ label {
 }
 
 .phone {
-    color: rgb(223, 139, 62, 0.85);
+  color: rgb(223, 139, 62, 0.85);
 }
 /*--------------------------------/footer*/
 
 /*--------------------------------:hover*/
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(223, 139, 62, 0.85);
+  color: rgb(223, 139, 62, 0.85);
 }
 
 .hvr-icon-grow {
@@ -286,4 +281,3 @@ label {
   border-top: 2px solid;
   color: rgb(223, 139, 62, 0.85);
 }
-/*--------------------------------/general*/

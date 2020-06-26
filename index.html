@@ -6,8 +6,6 @@
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
     />
 
     <link rel="stylesheet" href="assets/style.css" />
@@ -20,7 +18,7 @@
     <header>
       <div class="fixed-top dropdown-nav">
         <nav class="navbar navbar-light navbar-expand-sm">
-          <a href="index.html" class="navbar-brand"
+          <a href="#home" class="navbar-brand"
             ><img
               src="assets/images/logo-white.png"
               alt="the groundnut logo"
@@ -124,31 +122,8 @@
     </div>
 
     <div
-      class="container-fluid widget-container d-flex justify-content-center align-items-center background-container"
+      class="container-fluid details-container background-container text-center mt-5 mb-4 pt-5"
     >
-      <div class="row m-5">
-        <div class="col">
-          <iframe
-            id="ytplayer"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/MlSmSDHcrJk?modestbranding=1&color=white"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-    </div>
-
-    <!--details-->
-
-    <div
-      id="details"
-      class="container-fluid details-container text-center mt-5 mb-4"
-    >
-      <h1 class="title-heading general-heading pt-5 pb-2 mt-3 mb-1">
-        Details
-      </h1>
-
       <div
         class="row mx-5 mb-5 d-flex justify-content-center align-items-center"
       >
@@ -195,7 +170,22 @@
           </p>
         </div>
       </div>
-      <hr class="block-divider" />
+    </div>
+
+    <div
+      class="container-fluid d-flex justify-content-center align-items-center background-container"
+    >
+      <div class="row m-5">
+        <div class="col">
+          <iframe
+            id="ytplayer"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/MlSmSDHcrJk?modestbranding=1&color=white"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
     </div>
 
     <!--seats-->
@@ -247,10 +237,7 @@
             </div>
             <div class="form-group">
               <label for="guests-select">Seats</label>
-              <select
-                class="form-control form-control-sm"
-                id="guests-select"
-              >
+              <select class="form-control form-control-sm" id="guests-select">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
