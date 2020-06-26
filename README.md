@@ -1,5 +1,5 @@
 # The Groundnut Table 
-## Milestone project 1: User-Centric Frontend Development - Code Institute
+## Milestone Project 1: User-Centric Frontend Development - Code Institute
 
 This is a website for “The Groundnut Table” supper-club. It is designed to be easily recognisable as such and responsive on a range of devices to increase accessibility. The layout of the site is clean and has conveniently placed navigation throughout. This ensures that any prospective guests are able to easily gather the information necessary to make a decision. The website will be used for marketing purposes to extend the reach of the supper-club beyond it’s current client base. 
 
@@ -14,7 +14,7 @@ This is a website for “The Groundnut Table” supper-club. It is designed to b
 
 - #### First Time User Goals
 
-   1. As a First Time User, I want to understand the main purpose of the enterprise 
+   1. As a First Time User, I want to understand who the company are and what services they provide
    
    2. As a First Time User, I want to be able to navigate intuitively through the site 
    
@@ -116,13 +116,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 - #### First Time User Goals
 
-   1. As a First Time User, I want to understand the main purpose of the enterprise 
+   1. As a First Time User, I want to understand who the company are and what services they provide
 
         * The hero image provides visual cues as to the nature of the company (a table)
         * The heading is positioned in the centre of the page to ensure focus. The heading states the company name, which also contains the company logo
-        * The navigation bar provides users with four clear options home (refreshes the page), about, details and seats
+        * The about section provides background information on the company that clearly explains how the supper-club works 
 
-   
    2. As a First Time User, I want to be able to navigate intuitively through the site 
 
         * Upon entering the site, the navigation bar is positioned at the top of the page and unobstructed by any images.  This makes it easy for users to locate and read 
