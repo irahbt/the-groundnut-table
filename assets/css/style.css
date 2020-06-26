@@ -41,7 +41,7 @@ body {
   color: rgb(223, 139, 62, 0.85);
 }
 
-p {
+.text {
   color: rgb(128, 128, 128);
   font-weight: 200;
   font-size: small;
