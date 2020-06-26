@@ -3,10 +3,7 @@
 
 This is a website for “The Groundnut Table” supper-club. It is designed to be easily recognisable as such and responsive on a range of devices to increase accessibility. The layout of the site is clean and has conveniently placed navigation throughout. This ensures that any prospective guests are able to easily gather the information necessary to make a decision. The website will be used for marketing purposes to extend the reach of the supper-club beyond it’s current client base. 
 
-[Wireframe for desktop](https://github.com/irahbt/the-groundnut-table/blob/e9b573e94d5b0463ceb3db6c4dbfef0dc9d136e8/assets/images/readme-images/wireframe-desktop.png "Desktop Wireframe")
-
-[Wireframe for mobile](https://github.com/irahbt/the-groundnut-table/blob/e9b573e94d5b0463ceb3db6c4dbfef0dc9d136e8/assets/images/readme-images/wireframe-mobile.png "Mobile Wireframe")
-
+![Responsive Design](https://github.com/irahbt/the-groundnut-table/blob/8bb164af84e2c22909074ca97038f93c074b2d37/assets/images/readme-images/responsive-design.png)
  
 ## User Experience (UX)
 
@@ -15,7 +12,7 @@ This is a website for “The Groundnut Table” supper-club. It is designed to b
 - #### First Time User Goals
 
    1. As a First Time User, I want to understand who the company are and what services they provide
-   
+
    2. As a First Time User, I want to be able to navigate intuitively through the site 
    
    3. As a First Time User, I want to easily find any social media links to learn more about the company and establish trustworthiness 
@@ -48,11 +45,9 @@ This is a website for “The Groundnut Table” supper-club. It is designed to b
 
 ### Wireframes
 
-[Wireframe for desktop](https://github.com/irahbt/the-groundnut-table/blob/9f3d18a57a5bb33f73a10d236d0bb283822fbfc3/assets/images/readme-images/wireframe-desktop.png "Wireframe desktop")
+[Wireframe for desktop](https://github.com/irahbt/the-groundnut-table/blob/e9b573e94d5b0463ceb3db6c4dbfef0dc9d136e8/assets/images/readme-images/wireframe-desktop.png "Desktop Wireframe")
 
-
-[Wireframe for mobile](https://github.com/irahbt/the-groundnut-table/blob/9f3d18a57a5bb33f73a10d236d0bb283822fbfc3/assets/images/readme-images/wireframe-mobile.png "Wireframe mobile")
-
+[Wireframe for mobile](https://github.com/irahbt/the-groundnut-table/blob/e9b573e94d5b0463ceb3db6c4dbfef0dc9d136e8/assets/images/readme-images/wireframe-mobile.png "Mobile Wireframe")
 
 ## Features
 
