@@ -3,9 +3,9 @@
 
 This is a website for “The Groundnut Table” supper-club. It is designed to be easily recognisable as such and responsive on a range of devices to increase accessibility. The layout of the site is clean and has conveniently placed navigation throughout. This ensures that any prospective guests are able to easily gather the information necessary to make a decision. The website will be used for marketing purposes to extend the reach of the supper-club beyond it’s current client base. 
 
-![Responsive design image](https://github.com/irahbt/the-groundnut-table/blob/6641b44222eb30b1d7357ad8141f929e82614825/assets/images/readme-images/responsive-design.png)
+[Wireframe for desktop](https://github.com/irahbt/the-groundnut-table/blob/e9b573e94d5b0463ceb3db6c4dbfef0dc9d136e8/assets/images/readme-images/wireframe-desktop.png "Desktop Wireframe")
 
-[View the live demo version here](https://irahbt.github.io/the-groundnut-table/ "Live demo version")
+[Wireframe for mobile](https://github.com/irahbt/the-groundnut-table/blob/e9b573e94d5b0463ceb3db6c4dbfef0dc9d136e8/assets/images/readme-images/wireframe-mobile.png "Mobile Wireframe")
 
  
 ## User Experience (UX)
@@ -63,13 +63,13 @@ This is a website for “The Groundnut Table” supper-club. It is designed to b
 -	Animation is used on the homepage to provide a slow-reveal effect
 -	The navbar collapses on smaller screen sizes to conserve screen real estate 
 -	Parallax scrolling effect is used on background images to deliver a unified experience to users
--	Parallex is only supported on desktop devices, to compensate for this, media queries were used to position the background image on smaller devices such as tablets and mobile phones. 
+-	Parallax is only supported on desktop devices, to compensate for this, media queries were used to position the background image on smaller devices such as tablets and mobile phones. 
 -	The addition of Smooth Scrolling gives the impression of seamlessness
 
 ### Features Left to Implement
-- Currently, the collapsed navbar on smaller screens remains on the screen after a link has taken the user to their selected destination, this mean the user has to press the burger icon twice which is bad UX. We would like to implement a feature that collapses the navbar list automatically once the user has reached the targeted href
-- We would like to provide feedback once the submit button has been activated on the form for seats, to re-assure users that their request has been acknowledged 
-- In the future, we would like to include a “Sign-up for the Newsletter” check-box on the Seats form that would provide customers with information regarding events
+- Currently, the collapsed navbar on smaller screens remains on the screen after a link has taken the user to their selected destination, this mean the user has to press the burger icon twice which is bad UX. I would like to implement a feature that collapses the navbar list automatically once the user has reached the targeted href
+- I would like to provide feedback once the submit button has been activated on the form for seats, to re-assure users that their request has been acknowledged 
+- In the future, I would like to include a “Sign-up for the Newsletter” check-box on the Seats form that would provide customers with information regarding events
 
 ## Technologies Used
 
@@ -84,32 +84,33 @@ This is a website for “The Groundnut Table” supper-club. It is designed to b
 1. [Bootstrap 4.5:](https://getbootstrap.com/docs/4.5/getting-started/download/)
     - Bootstrap was used to help make the website responsive on a range of devices
 
-2. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer of the page to implement the grow transition when the icons are hovered over 
+2. [Figma:](https://www.figma.com/)
+    - Figma was used to create the [wireframes](figma link) during the design process
 
-3. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts was used to import the ‘Spartan’ font into the style.css
-
-4. [Font Awesome:](https://fontawesome.com/)
+3. [Font Awesome:](https://fontawesome.com/)
     -  Font Awesome icons were used for the details section and the social media links in the footer
 
-6. [Git](https://git-scm.com/)
+4. [Git](https://git-scm.com/)
     - The Gitpod terminal from Git was used to commit to Git and Push to GitHub
-.
-7. [GitHub:](https://github.com/)
+
+5. [GitHub:](https://github.com/)
     - GitHub was used to store the code after being pushed from Git
 
-8. [Figma:](https://www.figma.com/)
-    - Figma was used to create the [wireframes](figma link) during the design process.
+6. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts was used to import the ‘Spartan’ font into the style.css
 
+7. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer of the page to implement the grow transition when the icons are hovered over 
 
+8. [YouTube:](https://www.youtube.com/)
+    - Youtube developer sample was used to embed and customise the video in the about section 
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the project:
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results - find better link!](https://validator.w3.org/nu/#textarea)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results - find better link!](http://jigsaw.w3.org/css-validator/validator$link)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### Testing User stories
 
@@ -195,26 +196,34 @@ The project was deployed to GitHub Pages using the following method:
 ### Making a Local Clone
 1. On GitHub, navigate to the site's repository, "irahbt
 /the-groundnut-table" LINK 
-2. Above the list of files, click  Code.
-3. To clone the repository using HTTPS, under "Clone with HTTPS", click ..
+2. Above the list of files, click "Clone"
+3. The default is to clone the repository using HTTPS, under "Clone with HTTPS", to clone the repository using an SSH key click "Use SSH"
+4. Click the icon next to the link to copy your link
+5. Open Terminal
+6. Change the current working directory to the location where you want the cloned directory
+7. Type "git clone", and then paste the URL copied earlier
+8. Press Enter to create your local clone
+
 
 ## Credits
 
 ### Code
 
--   The parallex scrolling effect came from LINK
+-   [w3school.com](https://www.w3schools.com/): The website was a frequent source for code used throughout, including the [parralex scrolling effect](https://www.w3schools.com/howto/howto_css_parallax.asp) and [smooth scrolling](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
 
 -   [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap Library used throughout the project for styling and layout purposes, it was also used to make the site responsive where appropriate 
 
 ### Content
 
--   The About content was taken from the "The Groundnut cookbook" with permission from the authorse.
-
-
+-   The About content was taken from the "The Groundnut Cookbook" with permission from one of the authors, Jacob Fodio Todd 
 
 ### Media
 
--   
+-   Jacob also provided access to a library of photos, taken by Sophie Davidson, for general marketing purposes 
+
+- The YouTube was produced and published by BBC News Africa
 
 ### Acknowledgements
 
+- My Code Institute Mentor, Oluwafemi Medale, for his useful feedback throughout the project 
+- The founders of the Groundnut; Duval Timothy, Jacob Fodio Todd and Folayemi Brown for providing me with inspiration and material for the project
