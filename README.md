@@ -3,7 +3,7 @@
 
 This is a website for “The Groundnut Table” supper-club. It is designed to be easily recognisable as such and responsive on a range of devices to increase accessibility. The layout of the site is clean and has conveniently placed navigation throughout. This ensures that any prospective guests are able to easily gather the information necessary to make a decision. The website will be used for marketing purposes to extend the reach of the supper-club beyond it’s current client base. 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Responsive Design](https://github.com/irahbt/the-groundnut-table/blob/master/assets/images/readme-images/responsive-design.png)
 
 [View the live demo version here](https://irahbt.github.io/the-groundnut-table/ "Live demo version")
 
@@ -171,7 +171,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 - On Internet Explorer, only certain css is applied 
 - On Internet Explorer, all text is push to the right hand side of the screen. Due to these issues we would suggest that the website is not accesable on Interenet explorer at this time
-- footer... 
+- On small devices the footer re-aranges  
 
 ## Deployment
 
