@@ -110,7 +110,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 - #### First Time User Goals
 
-   1. As a First Time User, I want to
+   1. As a First Time User, I want to understand the main purpose of the enterprise 
 
         * The hero image provides visual cues as to the nature of the company (a table)
         * The heading is positioned in the centre of the page to ensure focus. The heading states the company name, which also contains the company logo
@@ -171,6 +171,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 - On Internet Explorer, only certain css is applied 
 - On Internet Explorer, all text is push to the right hand side of the screen. Due to these issues we would suggest that the website is not accesable on Interenet explorer at this time
+- footer... 
 
 ## Deployment
 

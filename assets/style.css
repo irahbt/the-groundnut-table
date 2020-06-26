@@ -99,7 +99,7 @@ p {
 }
 
 .details-container {
-  height: 50vh;
+  height: 45vh;
   background-image: url("../assets/images/widget-bg.png");
 }
 
@@ -112,6 +112,9 @@ p {
   }
 }
 
+.widget-container {
+    height: 60vh;
+}
 
 .seats-container {
   background-image: url("../assets/images/seats-bg.png");
@@ -154,12 +157,12 @@ p {
 /*--------------------------------about*/
 
 iframe {
-  border: 5px solid rgb(249, 249, 249, 0.85);
+  border: 7px solid rgb(223, 139, 62, 0.85);
   border-radius: 3px;
 }
 @media screen and (max-width: 576px) {
   iframe {
-    border: 5px solid rgb(249, 249, 249, 0.85);
+    border: 5px solid rgb(223, 139, 62, 0.85);
     border-radius: 3px;
     width: 340px;
     height: 255px;
@@ -270,14 +273,3 @@ label {
   color: rgb(223, 139, 62, 0.85);
 }
 
-/*--------------------------------/:hover*/
-
-/*--------------------------------general*/
-.block-divider {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border: 0;
-  width: 30%;
-  border-top: 2px solid;
-  color: rgb(223, 139, 62, 0.85);
-}
