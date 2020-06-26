@@ -146,4 +146,69 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
          * The dates sections is clearly signposted with a calender icon in the details section. A "new" badge has been added to the latest date to indicate that new dates are added regularly. This is reinforced in the seats form which states that new dates are added on the first of every month
 
 
+### Testing Interactive Elements 
+
+- #### All navigation links send users to the expected destination
+
+
+ - #### Youtube Video:
+    - the video does not autoplay on opening the page 
+    - the video responds to all buttons (play, fullscreen etc.)
+    - the video automatically enters full screen when on smaller devices to allow for optimum viewing  
+
+ - #### Seats Form:
+    - An error message appears when required fields are empty 
+    - An error message appears an invalid email address 
+    - when all inputs are valid the submit button refreshes the page and returns the user to the seats page. The page must be refreshed before filling out the form again   
+
+### Further Testing
+
+- The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
+- The website was tested on a variety of devices such as Desktop, Laptop, iPad mini,  iPhone 7, iPhone 8, iPhoneX and Nokia E30
+- Friends and family members viewed the site and provided feedback on bugs and UX issues
+
+### Known Bugs 
+
+- On Internet Explorer, only certain css is applied 
+- On Internet Explorer, all text is push to the right hand side of the screen. Due to these issues we would suggest that the website is not accesable on Interenet explorer at this time
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following method:
+    
+1. On GitHub, navigate to the site's repository, "irahbt
+/the-groundnut-table" LINK 
+2. Under the repository name, there is a menu, locate the "Settings" button and click on it 
+3. Scroll down the Settings page until you reach the "GitHub Pages" section
+4. Under "GitHub Pages", use the Source drop-down menu and select a publishing source, select "Master Branch"
+5. The page should automatically refresh at this point 
+6. Scroll back down to the "Github Pages" section to find the now published site to locate the now published site https://irahbt.github.io/the-groundnut-table/
+
+### Making a Local Clone
+1. On GitHub, navigate to the site's repository, "irahbt
+/the-groundnut-table" LINK 
+2. Above the list of files, click  Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click ..
+
+## Credits
+
+### Code
+
+-   The parallex scrolling effect came from LINK
+
+-   [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap Library used throughout the project for styling and layout purposes, it was also used to make the site responsive where appropriate 
+
+### Content
+
+-   The About content was taken from the "The Groundnut cookbook" with permission from the authorse.
+
+
+
+### Media
+
+-   
+
+### Acknowledgements
 
