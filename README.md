@@ -3,7 +3,9 @@
 
 This is a website for “The Groundnut Table” supper-club. It is designed to be easily recognisable as such and responsive on a range of devices to increase accessibility. The layout of the site is clean and has conveniently placed navigation throughout. This ensures that any prospective guests are able to easily gather the information necessary to make a decision. The website will be used for marketing purposes to extend the reach of the supper-club beyond it’s current client base. 
 
-![Responsive Design](https://github.com/irahbt/the-groundnut-table/blob/master/assets/images/readme-images/responsive-design.png)
+![Responsive design image](https://github.com/irahbt/the-groundnut-table/blob/6641b44222eb30b1d7357ad8141f929e82614825/assets/images/readme-images/responsive-design.png)
+
+
 
 [View the live demo version here](https://irahbt.github.io/the-groundnut-table/ "Live demo version")
 
@@ -47,6 +49,7 @@ This is a website for “The Groundnut Table” supper-club. It is designed to b
      -   The layout of the site was designed to be as intuitive as possible for the user, with information being presented in a logical manner Home, introduces the company. About, provides information as to what the company does. Details, provides details of the events and Seats, allows users to sign up having been given all the necessary information. 
 
 ### Wireframes
+
 
 
 ## Features
