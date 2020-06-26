@@ -5,8 +5,6 @@ This is a website for “The Groundnut Table” supper-club. It is designed to b
 
 ![Responsive design image](https://github.com/irahbt/the-groundnut-table/blob/6641b44222eb30b1d7357ad8141f929e82614825/assets/images/readme-images/responsive-design.png)
 
-
-
 [View the live demo version here](https://irahbt.github.io/the-groundnut-table/ "Live demo version")
 
  
@@ -34,7 +32,7 @@ This is a website for “The Groundnut Table” supper-club. It is designed to b
 
 ### Design 
 
-#### In order to maintain brand identity, the design was inspired by [The Groundnut Cookbook](https://www.amazon.co.uk/dp/0718179412/ref=cm_sw_em_r_mt_dp_U_PiB9Eb2421508 "Cookbook") which was published following the success of the The Groundnut Table supperclub. 
+#### In order to maintain brand identity, the design was inspired by [The Groundnut Cookbook](https://www.amazon.co.uk/dp/0718179412/ref=cm_sw_em_r_mt_dp_U_PiB9Eb2421508 "Cookbook") which was published following the success of the The Groundnut Table supper-club. 
 
 - #### Colour Scheme
     -  The three main colours used are orange, white and grey in accordance with the branding.
@@ -50,6 +48,10 @@ This is a website for “The Groundnut Table” supper-club. It is designed to b
 
 ### Wireframes
 
+[Wireframe for desktop](https://github.com/irahbt/the-groundnut-table/blob/9f3d18a57a5bb33f73a10d236d0bb283822fbfc3/assets/images/readme-images/wireframe-desktop.png "Wireframe desktop")
+
+
+[Wireframe for mobile](https://github.com/irahbt/the-groundnut-table/blob/9f3d18a57a5bb33f73a10d236d0bb283822fbfc3/assets/images/readme-images/wireframe-mobile.png "Wireframe mobile")
 
 
 ## Features
