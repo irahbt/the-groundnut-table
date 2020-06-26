@@ -99,7 +99,7 @@ p {
 }
 
 .details-container {
-  height: 45vh;
+  height: 50vh;
   background-image: url("../assets/images/widget-bg.png");
 }
 
@@ -113,7 +113,7 @@ p {
 }
 
 .widget-container {
-    height: 60vh;
+    height: 55vh;
 }
 
 .seats-container {
