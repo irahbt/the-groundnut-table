@@ -103,7 +103,7 @@ p {
   background-image: url("../assets/images/widget-bg.png");
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .details-container {
     height: 900px;
     background: url("../assets/images/widget-bg.png");
