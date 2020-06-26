@@ -88,25 +88,25 @@ p {
 }
 
 .home-container {
-  background-image: url("../assets/images/home-bg.png");
+  background-image: url("../../assets/images/home-bg.png");
 }
 
 @media screen and (max-width: 768px) {
   .home-container {
-    background: url("../assets/images/home-bg.png");
+    background: url("../../assets/images/home-bg.png");
     background-position: left;
   }
 }
 
 .details-container {
   height: 50vh;
-  background-image: url("../assets/images/widget-bg.png");
+  background-image: url("../../assets/images/widget-bg.png");
 }
 
 @media screen and (max-width: 768px) {
   .details-container {
     height: 800px;
-    background: url("../assets/images/widget-bg.png");
+    background: url("../../assets/images/widget-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -117,12 +117,12 @@ p {
 }
 
 .seats-container {
-  background-image: url("../assets/images/seats-bg.png");
+  background-image: url("../../assets/images/seats-bg.png");
 }
 
 @media screen and (max-width: 768px) {
   .seats-container {
-    background: url("../assets/images/seats-bg.png");
+    background: url("../../assets/images/seats-bg.png");
     background-position: right;
   }
 }
