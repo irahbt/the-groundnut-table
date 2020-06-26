@@ -8,7 +8,7 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
-/*--------------------------------navs*/
+/*--------Navs--------*/
 
 .navbar {
   padding: 0 5px 0 5px;
@@ -26,7 +26,7 @@ body {
   border: none;
 }
 
-/*--------------------------------text*/
+/*--------Text--------*/
 
 .title-heading {
   color: rgb(249, 249, 249, 0.85);
@@ -55,7 +55,7 @@ body {
   letter-spacing: 0.1rem;
 }
 
-/*--------------------------------logos*/
+/*--------Logos--------*/
 
 .logo-orange,
 .logo-white {
@@ -74,7 +74,9 @@ body {
   height: 10px;
   bottom: 1px;
 }
-/*--------------------------------backgrounds*/
+
+/*--------Containers--------*/
+
 .container-fluid {
   overflow: hidden;
 }
@@ -113,7 +115,7 @@ body {
 }
 
 .widget-container {
-    height: 55vh;
+  height: 55vh;
 }
 
 .seats-container {
@@ -127,13 +129,12 @@ body {
   }
 }
 
-/*--------------------------------borders*/
 .border {
   border: 1px solid rgb(249, 249, 249, 0.85);
   border-radius: 10px;
 }
 
-/*--------------------------------home*/
+/*--------Home--------*/
 
 .box {
   width: 22rem;
@@ -154,7 +155,7 @@ body {
   }
 }
 
-/*--------------------------------about*/
+/*--------about--------*/
 
 iframe {
   border: 7px solid rgb(223, 139, 62, 0.85);
@@ -169,7 +170,7 @@ iframe {
   }
 }
 
-/*--------------------------------details*/
+/*--------Details--------*/
 
 .details-box {
   background-color: rgb(64, 64, 64, 0.5);
@@ -181,7 +182,8 @@ iframe {
   color: rgb(249, 249, 249, 0.85);
 }
 
-/*--------------------------------seats*/
+/*--------Form--------*/
+
 form {
   padding: 20px;
   padding-bottom: 5px;
@@ -221,9 +223,7 @@ label {
   letter-spacing: 0.1rem;
 }
 
-/*--------------------------------/seats*/
-
-/*--------------------------------footer*/
+/*--------Footer--------*/
 
 .social-links li a i {
   color: rgb(223, 139, 62, 0.85);
@@ -234,9 +234,9 @@ label {
 .phone {
   color: rgb(223, 139, 62, 0.85);
 }
-/*--------------------------------/footer*/
 
-/*--------------------------------:hover*/
+/*--------Hover--------*/
+
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgb(223, 139, 62, 0.85);
 }
@@ -272,4 +272,3 @@ label {
   background-color: rgb(249, 249, 249, 0.85);
   color: rgb(223, 139, 62, 0.85);
 }
-
