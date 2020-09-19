@@ -15,7 +15,7 @@ body {
 }
 
 .dropdown-nav {
-  background-color: rgb(220, 220, 220, 0.8);
+  background-color: rgb(220, 220, 220, 0.9);
 }
 
 .navbar-toggler {
@@ -42,8 +42,8 @@ body {
 }
 
 .text {
-  color: rgb(128, 128, 128);
-  font-weight: 200;
+  color: rgb(78, 77, 77);
+  font-weight: 400;
   font-size: small;
   letter-spacing: 0.1rem;
 }
