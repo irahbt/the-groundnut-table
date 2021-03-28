@@ -118,7 +118,7 @@ body {
   height: 55vh;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .widget-container {
     height: 100%;
     }
@@ -171,7 +171,7 @@ iframe {
   iframe {
     border: 5px solid rgb(223, 139, 62, 0.85);
     border-radius: 3px;
-    width: 340px;
+    width: 320px;
     height: 255px;
   }
 }
