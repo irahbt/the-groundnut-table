@@ -118,6 +118,12 @@ body {
   height: 55vh;
 }
 
+@media screen and (max-width: 992px) {
+    .widget-container {
+    height: 100%;
+    }
+}
+
 .seats-container {
   background-image: url("../../assets/images/seats-bg.png");
 }
