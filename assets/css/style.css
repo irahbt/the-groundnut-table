@@ -164,12 +164,12 @@ body {
 /*--------about--------*/
 
 iframe {
-  border: 7px solid rgb(223, 139, 62, 0.85);
+  border: 3px solid rgb(223, 139, 62, 0.85);
   border-radius: 3px;
 }
 @media screen and (max-width: 576px) {
   iframe {
-    border: 5px solid rgb(223, 139, 62, 0.85);
+    border: 3px solid rgb(223, 139, 62, 0.85);
     border-radius: 3px;
     width: 320px;
     height: 255px;
